@@ -1,25 +1,32 @@
+
+import image1 from "@/images/Burger 1.png"
+import image2 from "@/images/Dosa 1.png"
+import image3 from "@/images/Pizza 1.png"
+import image4 from "@/images/Thaali 1.png"
+import { StaticImageData } from "next/image"
+
 export const apnadesh=[
     {
         id:1,
-        url:"https://ekshot.com/images/Pizza%201.png",
+        url:image3,
         height:411,
         width:614
     },
     {
         id:2,
-        url:"https://ekshot.com/images/Burger%201.png",
+        url:image1,
         height:422,
         width:633
     },
     {
         id:3,
-        url:"https://ekshot.com/images/Thaali%201.png",
+        url:image4,
         height:438,
         width:696
     },
     {
         id:4,
-        url:"https://ekshot.com/images/Dosa%201.png",
+        url:image2,
         height:427,
         width:573
     },
@@ -29,7 +36,7 @@ export const apnadesh=[
 export interface ApnadeshPros{
     
         id:number,
-        url:string,
+        url:StaticImageData,
         height:number,
         width:number
     

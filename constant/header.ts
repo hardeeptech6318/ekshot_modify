@@ -15,11 +15,11 @@ export const headerLink=[
         url:"/gallery"
     },
 
-    {
-        id:4,   
-        title:" REFER-&-EARN",
-        url:"/refer"
-    },
+    // {
+    //     id:4,   
+    //     title:" REFER-&-EARN",
+    //     url:"/refer"
+    // },
     {
         id:5,
         title:"CONTACT-US",

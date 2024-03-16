@@ -23,7 +23,7 @@ function CarouselCommon({ data }: { data: ApnadeshPros[] }) {
                   src={e.url}
                   height={e.height}
                   width={e.width}
-                  alt={e.url}
+                  alt="lkhg"
                 />
               )}
             </CarouselItem>

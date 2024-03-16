@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import CarouselCommon from '../CarouselCommon'
-import { motion
-    
-} from "framer-motion";
+
 import { apnadesh } from '@/constant/apnadesh';
+
+import apnaimage from "@/images/apna.png"
 
 function Section5() {
   return (
@@ -12,7 +12,7 @@ function Section5() {
         <div className=" grid grid-cols-12">
           <div className="  md:col-span-7 col-span-12">
             <div className=" pb-5">
-              <Image src="https://ekshot.com/images/apna.png" alt="" height={39} width={326} />
+              <Image src={apnaimage} alt="" height={39} width={326} />
             </div>
             <div 
     //  initial={{ y: 200 ,opacity:0}}

@@ -5,19 +5,20 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-// import { scroll } from "framer-motion";
+import { scroll } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 
 import React, { useState } from "react";
 import { Menu } from "lucide-react";
+import logo from "@/images/logo.png"
 
 function Header() {
   const pathname = usePathname();
   const [position, setposition] = useState(0);  
 
   const [open, setOpen] = React.useState(false);
-  // scroll((progress) => setposition(progress));
+  scroll((progress) => setposition(progress));
 
   return (
     <header
@@ -31,7 +32,7 @@ function Header() {
       <div>
         <Image
           className=" max-w-[130px] md:max-w-[180px]  lg:max-w-[250px]"
-          src="https://ekshot.com/images/logo.png"
+          src={logo}
           alt="logo"
           height={71}
           width={298}

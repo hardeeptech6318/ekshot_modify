@@ -34,7 +34,8 @@ export function CarouselDemo({ data }: { data: ApnadeshPros[] }) {
                   src={e.url}
                   height={e.height}
                   width={e.width}
-                  alt={e.url}
+                //   alt={e.url}
+                alt="lkjg"
                 />
               )}
             </CarouselItem>

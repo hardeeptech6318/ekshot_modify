@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { Button } from '../ui/button'
+import grocery from "@/images/grocery2.png"
 
 function Section3() {
   return (
@@ -8,7 +9,7 @@ function Section3() {
         <div className="  grid md:grid-cols-2 grid-cols-1">
           <div className=" flex justify-center items-center flex-col py-10">
             <h2 className=" font-bold text-4xl text-center text-white py-5">GROCERIES</h2>
-            <Image className="hover:scale-105 transition duration-500 ease-in-out" src="https://ekshot.com/images/grocery2.png" alt="groceryimage" width={481} height={376} />
+            <Image className="hover:scale-105 transition duration-500 ease-in-out" src={grocery} alt="groceryimage" width={481} height={376} />
           </div>
           <div className=" flex py-20 flex-col gap-5  items-start">
 
